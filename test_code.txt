@@ -1,0 +1,6 @@
+repeat  5000 
+reg9 reg_write  temp_sensor      0x00    
+repeat  5000
+reg9 reg_read  temp_sensor  0x00	     
+repeat  100   
+reg9 reg_read  temp_sensor	0x00
